@@ -1,0 +1,36 @@
+html, body { margin: 0px; padding: 0px; height: 100%;}
+nav{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: darkgray;
+    padding: 20px;
+    background-image: url("https://images.unsplash.com/photo-1464925257126-6450e871c667?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav ul {margin: 0px; padding: 0px; text-align: right;}
+nav ul li {
+    display: inline-block;
+}
+.Logo {
+    color: #CAF0F8;
+    font-weight: 700px;
+    font-size: 40px;
+}
+nav ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: rgb(7, 7, 7);
+}
+.searchbar {
+    position: sticky;  
+    left:82%;
+    top:25%;
+    width:30%;
+}
+main {
+    height: 100%;
+}
